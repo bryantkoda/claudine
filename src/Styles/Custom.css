@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, button {
+  font-family: "Roboto", serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+nav {
+  font-family: "Roboto Slab", serif;
+}
+
+header {
+  font-weight: 300;
+  background-image: url("../Images/banner1.jpg");
+  height: 70vh;
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar-collapse {
+  -webkit-box-flex: initial;
+      -ms-flex-positive: initial;
+          flex-grow: initial;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  border-bottom: 3px solid #ffffff;
+}
+
+.img-border {
+  padding: 4px;
+  border: 1px solid #9a9fa4;
+}
+
+.gallery_product {
+  margin: 0px;
+  padding: 0;
+  position: relative;
+}
+/*# sourceMappingURL=custom.css.map */

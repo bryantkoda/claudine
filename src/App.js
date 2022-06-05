@@ -1,16 +1,30 @@
-import React, {Component} from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
-import Button from 'react-bootstrap/Button';
+import "bootstrap/dist/js/bootstrap.js"
 
-class App extends Component {
-    render() {
-      return (
-        <div className="App">
-          <h1>Welcome to Kodaweb Test!</h1>
-          <Button>This is a button</Button>
-        </div>
-      )
-    }
-  }
+import "./Styles/Variables.css";
+import "./Styles/Custom.css";
 
-  export default App;
+import Navbar from "./Components/Navbar";
+import Content1 from "./Components/Content1";
+import Footer from "./Components/Footer";
+import TeamList from "./Components/TeamList";
+import Content2 from "./Components/Content2";
+import Gallery from "./Components/Gallery";
+import Bars from "./Components/Bars";
+
+
+function App() {
+  return(
+    <>
+      <Navbar/>
+      <Content1/>
+      <Bars/>
+      <Content2/>
+      <Gallery/>
+      <TeamList/>
+      <Footer/>
+    </>
+  );
+}
+
+  export default App

@@ -1,0 +1,49 @@
+@import "Variables.scss";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, button {
+    font-family: $font1;
+}
+
+h1, h2, h3, h4, h5, h6,
+nav {
+    font-family: $font2;
+}
+
+header {
+    font-weight: 300;
+    background-image: url("../Images/banner1.jpg");
+    height:70vh;
+    min-height:400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar-collapse {
+    flex-grow: initial;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: $whiteColor;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    border-bottom: 3px solid $whiteColor;
+}
+
+.img-border {
+    padding: 4px;
+    border: 1px solid $greyColor;
+}
+
+.gallery_product{
+    margin: 0px;
+	padding:0;
+	position:relative;
+}
