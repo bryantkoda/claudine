@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@100;300;400&display=swap");
+/* For Tablet View */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .cover-container {
+    padding: 30px;
+  }
+  .bg-rorange div {
+    padding-top: 9px !important;
+    font-size: 12px;
+  }
+  .mt-n {
+    margin-top: -52px;
+  }
+  .nav-team {
+    width: 95px;
+  }
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  .cover-container {
+    padding: 30px;
+  }
+  .bar h3 {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 12px;
+  }
+  #navbarCollapse div {
+    background: #394344;
+    padding: 20px;
+  }
+  .justify-content-end {
+    -webkit-box-pack: initial !important;
+        -ms-flex-pack: initial !important;
+            justify-content: initial !important;
+  }
+  .mt-n {
+    margin-top: 0;
+  }
+}
+
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px) and (orientation: landscape) {
+  .cover-container {
+    padding: 30px;
+  }
+  .bar h3 {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 12px;
+  }
+  #navbarCollapse div {
+    background: #394344;
+    padding: 20px;
+  }
+  .justify-content-end {
+    -webkit-box-pack: initial !important;
+        -ms-flex-pack: initial !important;
+            justify-content: initial !important;
+  }
+  .mt-n {
+    margin-top: 0;
+  }
+}
+
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+  .cover-container {
+    padding: 30px;
+  }
+  .bar h3 {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 12px;
+  }
+  #navbarCollapse div {
+    background: #394344;
+    padding: 20px;
+  }
+  .justify-content-end {
+    -webkit-box-pack: initial !important;
+        -ms-flex-pack: initial !important;
+            justify-content: initial !important;
+  }
+  .mt-n {
+    margin-top: 0;
+  }
+}
+
+/* For iPhone 5 Portrait or Landscape View */
+@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+  .cover-container {
+    padding: 30px;
+  }
+  .bar h3 {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 12px;
+  }
+  #navbarCollapse div {
+    background: #394344;
+    padding: 20px;
+  }
+  .justify-content-end {
+    -webkit-box-pack: initial !important;
+        -ms-flex-pack: initial !important;
+            justify-content: initial !important;
+  }
+  .mt-n {
+    margin-top: 0;
+  }
+}
+
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+@media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
+  .cover-container {
+    padding: 30px;
+  }
+  .bar h3 {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 12px;
+  }
+  #navbarCollapse div {
+    background: #394344;
+    padding: 20px;
+  }
+  .justify-content-end {
+    -webkit-box-pack: initial !important;
+        -ms-flex-pack: initial !important;
+            justify-content: initial !important;
+  }
+  .mt-n {
+    margin-top: 0;
+  }
+}
+/*# sourceMappingURL=Responsive.css.map */

@@ -8,15 +8,31 @@
 
 body, button {
     font-family: $font1;
+    line-height: 2;
 }
 
-h1, h2, h3, h4, h5, h6,
+h1, h2, h3,
 nav {
+    font-family: $font2;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+h4, h5, h6 {
+    font-family: $font2;
+    font-weight: 100;
+    line-height: 1.3;
+}
+
+.font1 {
+    font-family: $font1;
+}
+
+.font2 {
     font-family: $font2;
 }
 
 header {
-    font-weight: 300;
     background-image: url("../Images/banner1.jpg");
     height:70vh;
     min-height:400px;
@@ -30,20 +46,174 @@ header {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: $whiteColor;
+    color: $white;
 }
 
 .navbar-dark .navbar-nav .nav-link.active {
-    border-bottom: 3px solid $whiteColor;
+    border-bottom: 3px solid $white;
+}
+
+.bg-lgray {
+    background-color: $lgray;
+    width: 30%;
+}
+
+.bg-lgray-o {
+    background-color: rgba($lgray,0.1);
+}
+
+.bg-red {
+    background-color: $red;
+    width: 35%;
+}
+
+.bg-red-o {
+    background-color: rgba($red,0.1);
+}
+
+.bg-ygreen {
+    background-color: $ygreen;
+    width: 40%;
+}
+
+.bg-ygreen-o {
+    background-color: rgba($ygreen,0.1);
+}
+
+.bg-blue {
+    background-color: $blue;
+    width: 45%;
+}
+
+.bg-blue-o {
+    background-color: rgba($blue,0.1);
+}
+
+.bg-bgreen {
+    background-color: $bgreen;
+    width: 50%;
+}
+
+.bg-bgreen-o {
+    background-color: rgba($bgreen,0.1);
+}
+
+.bg-orange {
+    background-color: $orange;
+    width: 55%;
+}
+
+.bg-orange-o {
+    background-color: rgba($orange,0.1);
+}
+
+.bg-rorange {
+    background-color: $red;
+
+    small {
+        color: rgba($white,0.5);
+    }
+
+    div {
+        padding-top:10px;
+        color: $white;
+        font-size: 18px;
+    }
+}
+
+.bg-rorange:hover {
+    background-color: $black;
+    cursor: pointer;
+}
+
+.bar:hover {
+    width:100% !important;
+    cursor: pointer;
+    transition: width 2s;
 }
 
 .img-border {
     padding: 4px;
-    border: 1px solid $greyColor;
+    border: 1px solid $gray;
 }
 
 .gallery_product{
     margin: 0px;
 	padding:0;
 	position:relative;
+}
+
+.cover-container {
+    max-width: 70em;
+}
+
+.content1 {
+    font-size: 13px;
+    color: $gray;
+
+    a {
+        color: $gray;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+.content12 {
+    padding-left: 10%;
+}
+
+.content2 {
+    font-size: 13px;
+    color: $gray;
+
+    h3 {
+        color: $black;
+    }
+}
+
+.content-team {
+    font-size: 13px;
+    color: $lgray;
+
+    a {
+        color: $lblue;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+.mt-n {
+    margin-top: -90px;
+}
+
+.rounded-circle:hover {
+    background-color: $black;
+    cursor: pointer;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+footer {
+    font-size: 11px;
+    color: $gray;
+    border-top: 1px solid $lgray;
+    padding: 30px 10% 10px;
+
+    a {
+        color: $lgray;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: $gray;
+        text-decoration: underline;
+    }
 }

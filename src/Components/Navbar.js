@@ -5,12 +5,15 @@ import logo from "../Images/logo.png";
 const Navbar = () => {
     return(
         <>
-        <header>
-        <h1 className="text-white">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h1>
-    <p className="text-white">Stet clita kasd gubergren,no sea takimata sanctus</p>
-    <p className="lead">
-      <a href="#" className="btn btn-primary btn-sm fw-bold">FIND OUT MORE</a>
-    </p>
+        <header className="">
+            <div className="cover-container d-flex mx-auto flex-column py-5 px-5 text-center h-100">
+            <div className="my-auto">
+                <h1 className="text-white">Lorem ipsum dolor sit amet,<br/> consetetur sadipscing elitr</h1>
+                <p className="fs-5 text-white font2">Stet clita kasd gubergren, no sea takimata sanctus</p>
+                <a href="#" className="btn btn-primary btn-sm fw-bold mt-3">FIND OUT MORE</a>
+            </div>  
+            </div>
+        
         </header>
         <nav className="navbar navbar-expand-md navbar-dark fixed-top">
             <div className="container">
@@ -33,7 +36,7 @@ const Navbar = () => {
                             <a className="nav-link" href="#">Services</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Our Team</a>
+                            <a className="nav-link nav-team" href="#">Our Team</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">News</a>

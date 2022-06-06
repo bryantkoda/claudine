@@ -3,6 +3,7 @@ import "bootstrap/dist/js/bootstrap.js"
 
 import "./Styles/Variables.css";
 import "./Styles/Custom.css";
+import "./Styles/Responsive.css";
 
 import Navbar from "./Components/Navbar";
 import Content1 from "./Components/Content1";
